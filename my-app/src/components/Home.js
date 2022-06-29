@@ -9,7 +9,7 @@ const Home = () => {
         setBlogs(newBlogs);
     }
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/photos')
+        fetch('https://jsonplaceholder.typicode.com/users')
             .then(res => res.json())
             .then(data => {
                 setBlogs(data);
