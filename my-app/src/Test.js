@@ -1,10 +1,7 @@
 import { Link } from "react-router-dom";
-
-const BlogList = ({ ...props }) => {
-
+const Test = (...props) => {
     const { blogs } = props;
-
-    return (
+return (
         <div className="blog-list">
 
             {blogs.map((blog) => {
@@ -24,5 +21,6 @@ const BlogList = ({ ...props }) => {
             })}
         </div>
     );
+  
 }
-export default BlogList;
+export default Test;
