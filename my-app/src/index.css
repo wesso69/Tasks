@@ -49,6 +49,25 @@
 .blog-preview a {
   text-decoration: none;
 }
+.person-details {
+  padding: 10px 16px;
+  margin: 40px auto;
+  border-bottom: 1px solid #fafafa;
+}
+
+.person-details  hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.person-details  h1 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.person-details  a {
+  text-decoration: none;
+}
 .addperson {
   max-width: 600px;
   margin: 0 auto;
