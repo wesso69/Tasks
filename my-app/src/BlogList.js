@@ -20,7 +20,7 @@ const BlogList = ({ ...props }) => {
                         </Link>
                         {/* <button onClick={() => handleDelete(blogs.id)}> delete blog </button> */}
                     </div>
-                );
+                )
             })}
         </div>
     );
